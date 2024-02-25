@@ -1,0 +1,26 @@
+.card{
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.card-img-top{
+    height: 240px;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.card-title{
+    font-weight: bold;
+    height: 2.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.card-text{
+    height: 3em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}

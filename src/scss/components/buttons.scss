@@ -1,0 +1,19 @@
+@import '../variables';
+
+.btn-primary {
+    background-color: $tertiary !important;
+    color: $white !important;
+    font-weight: 500 !important;
+    font-family: $font-family-btn !important;
+    border: none !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary {
+    background-color: $primary !important;
+    color: $white !important;
+    font-weight: 500 !important;
+    font-family: $font-family-btn !important;
+    border: none !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}

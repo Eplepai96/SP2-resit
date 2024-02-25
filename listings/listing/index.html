@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitename | View Lisitng</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/dist/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/da4fbc451d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="content-container"> </div>
+      <header class="mb-5 sticky-top bg-light">
+        <nav class="navbar navbar-expand bg-light">
+            <div class="container-fluid">
+              <a class="nav-link text-danger m-1" href="/index.html">LOGO</a>
+              <div class="navbar">
+                <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-danger" aria-current="page" href="/listings">Listings</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-danger" href="/profile" id="profileNav">Profile</a>
+                  </li>
+                </ul>
+                </div>
+              </div>
+            </nav> 
+      </header>
+      <main class="d-md-flex flex-row flex-grow-2">
+        <div class="container-fluid" id="imageContainer"></div>
+        <div class="container">
+          <h1 class="row"></h1>
+          <div class="row justify-content-center" id="viewPost"></div>
+           <div class="container bidInfo">
+          <div class="bidForm">
+            <form action="" class="mb-5">
+              <input type="number" id="bidInput" name="bidAmount" min="0" step="any">
+              <label for="formInput"></label>
+              <input type="submit" class="btn btn-primary" id="bidButton" value="Place bid"></input>
+            </form>
+          </div>
+        </div>
+        </div>
+      </main>
+      
+        <footer class="bg-success text-center text-white text-lg-start text-sm-start mt-auto">
+          <div class="container p-4">
+            <div class="row">
+              <div class="col-6 mb-4 mb-md-0">
+                <p class="text-uppercase">logo</p>
+              </div>
+
+              <div class="col-6 mb-4 mb-md-0">
+                <ul class="nav justify-content-end list-unstyled d-flex m-2">
+                  <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-facebook-square fa-lg text-white"></i></a></li>
+                  <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-instagram fa-lg text-white"></i></a></li>
+                  <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-twitter-square fa-lg text-white"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              <span class="mb-3 mb-md-0 text-white">© 2023 Company, Inc</span>
+          </div>
+        </footer>
+    </div>
+    <script src="/src/js/index.mjs" defer type="module"></script>
+</body>
+</html>

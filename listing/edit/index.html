@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitename | Edit Listing</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/dist/css/styles.css">
+    <script src="/src/js/index.mjs" defer type="module"></script>
+</head>
+
+<body>
+    <div class="content-container">
+      <header class="mb-5 sticky-top bg-light">
+        <nav class="navbar navbar-expand bg-light">
+            <div class="container-fluid">
+              <a class="nav-link text-danger m-1" href="/index.html">LOGO</a>
+              <div class="navbar">
+                <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-danger" aria-current="page" href="/listings">Listings</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-danger" href="/profile" id="profileNav">Profile</a>
+                  </li>
+                </ul>
+                </div>
+              </div>
+            </nav> 
+      </header>
+      <main>
+      <div class="m-3 ">
+                <form id="editPost">
+                  <h1>Edit listing</h1>
+                  <div class="row">
+                      <div class="form-outline mb-4 col-sm-6">
+                        <label class="form-label" for="editInput">Title</label>
+                        <input type="email" id="editInput" class="form-control" name="title" />
+                      </div>
+
+                      <div class="form-outline mb-4 col-sm-6">
+                        <label class="form-label" for="editDescription">Description</label>
+                        <textarea cols="10" rows="2" type="password" id="editDescription" class="form-control" name="description"></textarea>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                      <div class="form-outline mb-4 col-sm-6">
+                        <label class="form-label" for="editTags">Tags</label> 
+                        <input type="text" id="editTags" class="form-control" name="tags"/>
+                    </div>
+
+                      <div class="form-outline mb-4 col-sm-6">
+                        <label class="form-label" for="editMedia">Media</label>
+                        <input type="url" id="editMedia" class="form-control" name="media" />
+                    </div>
+                  </div>
+                      <button type="submit" class="btn btn-primary btn-block mb-3 m-auto">Save changes</button>
+                </form>
+              </div>
+      </main>
+      
+      <footer class="bg-success text-center text-white text-lg-start text-sm-start mt-auto">
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-6 mb-4 mb-md-0">
+              <p class="text-uppercase">logo</p>
+            </div>
+
+            <div class="col-6 mb-4 mb-md-0">
+              <ul class="nav justify-content-end list-unstyled d-flex m-2">
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-facebook-square fa-lg text-white"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-instagram fa-lg text-white"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-twitter-square fa-lg text-white"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <span class="mb-3 mb-md-0 text-white">© 2023 Company, Inc</span>
+        </div>
+      </footer>
+</div>
+</body>
+</html>

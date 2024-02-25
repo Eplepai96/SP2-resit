@@ -1,0 +1,24 @@
+.home-image{
+    background-image: url("/src/images/heather-ford-5gkYsrH_ebY-unsplash.jpg");
+    border-radius: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 700px; 
+    width: 100%;
+    margin: auto;
+    height: auto; 
+}
+
+.profile-img {
+    max-width: 200px;
+    margin: auto;
+    border-radius: 50px;
+    background-position: 50px 50px;
+    background-repeat: no-repeat;
+}
+
+#imageContainer {
+    max-width: 700px;
+}
+

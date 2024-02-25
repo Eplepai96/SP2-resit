@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Source+Sans+Pro&family=Tangerine:wght@400;700&display=swap");
+.btn-primary {
+  background-color: #347a35 !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  font-family: "Quicksand", sans-serif !important;
+  border: none !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary {
+  background-color: #b3476b !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  font-family: "Quicksand", sans-serif !important;
+  border: none !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=buttons.css.map */

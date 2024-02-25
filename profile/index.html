@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitename | Profile</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/dist/css/styles.css">
+    <script src="/src/js/index.mjs" type="module" defer></script>
+</head>
+
+<body>
+    <div class="content-container">
+        <header class="mb-5 sticky-top bg-light">
+            <nav class="navbar navbar-expand bg-light">
+                <div class="container-fluid">
+                  <a class="nav-link text-danger m-1" href="/index.html">LOGO</a>
+                  <div class="navbar">
+                    <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link text-danger" aria-current="page" href="/listings">Listings</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-danger" href="/profile" id="profileNav">Profile</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav> 
+        </header>
+
+        <main>
+            
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="h-100" id="avatarContainer"></div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-black text-center">
+                      <h1 id="nameContainer"></h1>
+                    </div>
+                </div>
+                <div class="row d-flex">
+                    <div class="col-12 text-black text-center mt-2">
+                        <h5>Your credits:</h5>
+                    </div>
+                    <div class="col-12 text-black text-center mb-5" id="creditsContainer"></div>
+                    <!-- <div class="col-12 text-black">
+                        <p>Your email:</p>
+                    </div>
+                    <div class="col-12 text-black" id="emailContainer"></div> -->
+                </div>
+                <div class="row text-center">
+                    <div class="col-6">
+                        <a href="/listing/create" type="submit" class="btn btn-primary w-50" id="profileButton">Add listing</a>
+                    </div>
+                    <div class="col-6">
+                        <a href="/profile/edit" class="btn btn-secondary w-50">Edit profile</a>
+                    </div>
+                </div> 
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h1 class="text-black">Your listings</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row justify-content-start" id="profilePostsContainer"></div>
+                </div>
+                <div class="row">
+                    <button class="btn btn-secondary w-25 m-2" id="signoutButton">Sign out</button>
+                </div>
+            </div>   
+        </main>
+
+        <footer class="bg-success text-center text-white text-lg-start text-sm-start mt-auto">
+            <div class="container p-4">
+              <div class="row">
+                <div class="col-6 mb-4 mb-md-0">
+                  <p class="text-uppercase">logo</p>
+                </div>
+
+                <div class="col-6 mb-4 mb-md-0">
+                  <ul class="nav justify-content-end list-unstyled d-flex m-2">
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-facebook-square fa-lg text-white"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-instagram fa-lg text-white"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-twitter-square fa-lg text-white"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                <span class="mb-3 mb-md-0 text-white">© 2023 Company, Inc</span>
+            </div>
+          </footer>
+    </div>
+</body>
